@@ -35,7 +35,7 @@ $ npm run build
 UI relies on `src/config.json` file for configuration of launch.
 ```json
 {
-	"name":"My Project",
+	"name":"APESPUNKS",
 	"description":"",
 	"website":"",
 	"twitter":"",

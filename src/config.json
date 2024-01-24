@@ -1,23 +1,55 @@
 {
-    "name":"My Project",
-    "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu aliquet ultricies, urna elit aliquam nunc, quis aliquet nunc nisl quis nisl.",
-    "website":"",
-    "twitter":"",
-    "discord":"",
+    "name":"SeiPigs",
+    "description":"Collection of 4444 Pigs coming to Sei",
+    "website":"https://seimigos.xyz",
+    "twitter":"https://twitter.com/sei_pigs",
+    "discord":"https://discord.gg/seipigs",
     "rpc":"https://sei-testnet-2-rpc.brocha.in/",
     "network":"atlantic-2", 
-    "collection_address":"", 
+    "collection_address":"sei1akxscuzartl50hqfv0wrhv3hjk5swm9d0l7ks3l2xyryrmgcfe3qa3z9ln", 
     "nft_name_type": "default",
     "groups":[
         {
-            "name":"whitelist",
-            "allowlist":[
-                "sei14v72v7hgzuvgck6v6jsgjacxnt34gj06qnx53d",
-                "sei1t22vwusjlxg4vp7gttsx7n2y9u4k0vv9lpk2ge"
-            ] 
+            "name": "og",
+            "merkle_root": "0b88d256e80b8303d52e9689d0d77ce8511769dc205ce21df60bf8b3ee9db309",
+            "max_tokens": 10,
+            "unit_price": 0,
+            "creators": [
+                {
+                    "address": "sei14fgq7fsq9a7valawwq4sw5j4thhjs77tmv92sv",
+                    "share": 100
+                }
+            ],
+            "start_time": "2024-01-24T22:37:19Z",
+            "end_time": null
         },
         {
-            "name":"public"
+            "name": "whitelist",
+            "merkle_root": "0e4cc112ea24b163b1e8b3e74a69744d14906ebdad0e16878fbf6769a8cc668d",
+            "max_tokens": 5,
+            "unit_price": 0,
+            "creators": [
+                {
+                    "address": "sei14fgq7fsq9a7valawwq4sw5j4thhjs77tmv92sv",
+                    "share": 100
+                }
+            ],
+            "start_time": "2024-01-24T22:37:19Z",
+            "end_time": null
+        },
+        {
+            "name": "public",
+            "merkle_root": null,
+            "max_tokens": 0,
+            "unit_price": 1,
+            "creators": [
+                {
+                    "address": "sei14fgq7fsq9a7valawwq4sw5j4thhjs77tmv92sv",
+                    "share": 100
+                }
+            ],
+            "start_time": "2024-01-24T22:37:19Z",
+            "end_time": null
         }
     ]
 }
